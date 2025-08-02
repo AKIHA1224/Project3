@@ -1,0 +1,1216 @@
+{
+  "nodes": [
+    {
+      "id": "持久",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "体育",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "準備",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "突然",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "走っ",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "保健",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "倒れ",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "運動",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "心臓",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "距離",
+      "value": 5,
+      "cluster": 6
+    },
+    {
+      "id": "競技",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "児童",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "種別",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "発見",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "授業",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "後",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "死",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "行い",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "訴え",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "中枢",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "すぐ",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "終了",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "神経",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "見",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "嘔吐",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "際",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "室",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "病院",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "搬送",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "行っ",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "走",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "蘇生",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "死亡",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "救急",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "心肺",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "車",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "処置",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "意識",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "受け",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "生徒",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "呼吸",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "養護",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "使用",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "到着",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "停止",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "ショック",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "要請",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "教諭",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "担任",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "AED",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "回",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "状態",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "隊",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "人工",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "マッサージ",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "教室",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "歩い",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "教員",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "休憩",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "様子",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "声",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "昼食",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "なり",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "治療",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "血管",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "場",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "特定",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "館",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "途中",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "目",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "長",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "数",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "装着",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "保育",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "同日",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "圧迫",
+      "value": 2,
+      "cluster": 6
+    },
+    {
+      "id": "胸骨",
+      "value": 2,
+      "cluster": 6
+    }
+  ],
+  "links": [
+    {
+      "source": "体育",
+      "target": "競技",
+      "value": 127
+    },
+    {
+      "source": "体育",
+      "target": "保健",
+      "value": 105
+    },
+    {
+      "source": "体育",
+      "target": "種別",
+      "value": 127
+    },
+    {
+      "source": "体育",
+      "target": "準備",
+      "value": 40
+    },
+    {
+      "source": "体育",
+      "target": "授業",
+      "value": 81
+    },
+    {
+      "source": "体育",
+      "target": "後",
+      "value": 102
+    },
+    {
+      "source": "死",
+      "target": "突然",
+      "value": 258
+    },
+    {
+      "source": "体育",
+      "target": "死",
+      "value": 108
+    },
+    {
+      "source": "突然",
+      "target": "競技",
+      "value": 261
+    },
+    {
+      "source": "保健",
+      "target": "突然",
+      "value": 129
+    },
+    {
+      "source": "児童",
+      "target": "突然",
+      "value": 46
+    },
+    {
+      "source": "倒れ",
+      "target": "突然",
+      "value": 106
+    },
+    {
+      "source": "突然",
+      "target": "行い",
+      "value": 55
+    },
+    {
+      "source": "体育",
+      "target": "突然",
+      "value": 101
+    },
+    {
+      "source": "突然",
+      "target": "訴え",
+      "value": 47
+    },
+    {
+      "source": "突然",
+      "target": "運動",
+      "value": 59
+    },
+    {
+      "source": "種別",
+      "target": "突然",
+      "value": 261
+    },
+    {
+      "source": "中枢",
+      "target": "突然",
+      "value": 66
+    },
+    {
+      "source": "すぐ",
+      "target": "突然",
+      "value": 52
+    },
+    {
+      "source": "突然",
+      "target": "終了",
+      "value": 38
+    },
+    {
+      "source": "神経",
+      "target": "突然",
+      "value": 66
+    },
+    {
+      "source": "突然",
+      "target": "見",
+      "value": 28
+    },
+    {
+      "source": "嘔吐",
+      "target": "突然",
+      "value": 33
+    },
+    {
+      "source": "突然",
+      "target": "際",
+      "value": 55
+    },
+    {
+      "source": "室",
+      "target": "突然",
+      "value": 81
+    },
+    {
+      "source": "病院",
+      "target": "突然",
+      "value": 188
+    },
+    {
+      "source": "授業",
+      "target": "突然",
+      "value": 97
+    },
+    {
+      "source": "搬送",
+      "target": "突然",
+      "value": 188
+    },
+    {
+      "source": "後",
+      "target": "突然",
+      "value": 192
+    },
+    {
+      "source": "突然",
+      "target": "行っ",
+      "value": 86
+    },
+    {
+      "source": "体育",
+      "target": "倒れ",
+      "value": 56
+    },
+    {
+      "source": "体育",
+      "target": "行い",
+      "value": 29
+    },
+    {
+      "source": "体育",
+      "target": "運動",
+      "value": 44
+    },
+    {
+      "source": "体育",
+      "target": "終了",
+      "value": 25
+    },
+    {
+      "source": "体育",
+      "target": "際",
+      "value": 29
+    },
+    {
+      "source": "体育",
+      "target": "室",
+      "value": 28
+    },
+    {
+      "source": "体育",
+      "target": "病院",
+      "value": 86
+    },
+    {
+      "source": "体育",
+      "target": "搬送",
+      "value": 88
+    },
+    {
+      "source": "体育",
+      "target": "行っ",
+      "value": 43
+    },
+    {
+      "source": "心臓",
+      "target": "死",
+      "value": 149
+    },
+    {
+      "source": "心臓",
+      "target": "競技",
+      "value": 156
+    },
+    {
+      "source": "突然",
+      "target": "走",
+      "value": 37
+    },
+    {
+      "source": "体育",
+      "target": "走",
+      "value": 38
+    },
+    {
+      "source": "心臓",
+      "target": "走",
+      "value": 29
+    },
+    {
+      "source": "突然",
+      "target": "走っ",
+      "value": 27
+    },
+    {
+      "source": "突然",
+      "target": "蘇生",
+      "value": 63
+    },
+    {
+      "source": "死亡",
+      "target": "突然",
+      "value": 236
+    },
+    {
+      "source": "救急",
+      "target": "突然",
+      "value": 189
+    },
+    {
+      "source": "心肺",
+      "target": "突然",
+      "value": 70
+    },
+    {
+      "source": "突然",
+      "target": "距離",
+      "value": 36
+    },
+    {
+      "source": "心臓",
+      "target": "突然",
+      "value": 142
+    },
+    {
+      "source": "突然",
+      "target": "車",
+      "value": 168
+    },
+    {
+      "source": "処置",
+      "target": "突然",
+      "value": 53
+    },
+    {
+      "source": "意識",
+      "target": "突然",
+      "value": 101
+    },
+    {
+      "source": "受け",
+      "target": "突然",
+      "value": 82
+    },
+    {
+      "source": "生徒",
+      "target": "突然",
+      "value": 79
+    },
+    {
+      "source": "体育",
+      "target": "蘇生",
+      "value": 29
+    },
+    {
+      "source": "心臓",
+      "target": "蘇生",
+      "value": 37
+    },
+    {
+      "source": "保健",
+      "target": "心臓",
+      "value": 81
+    },
+    {
+      "source": "倒れ",
+      "target": "心臓",
+      "value": 75
+    },
+    {
+      "source": "体育",
+      "target": "死亡",
+      "value": 110
+    },
+    {
+      "source": "心臓",
+      "target": "死亡",
+      "value": 137
+    },
+    {
+      "source": "体育",
+      "target": "救急",
+      "value": 88
+    },
+    {
+      "source": "体育",
+      "target": "心肺",
+      "value": 33
+    },
+    {
+      "source": "体育",
+      "target": "距離",
+      "value": 36
+    },
+    {
+      "source": "体育",
+      "target": "心臓",
+      "value": 74
+    },
+    {
+      "source": "体育",
+      "target": "車",
+      "value": 75
+    },
+    {
+      "source": "体育",
+      "target": "処置",
+      "value": 27
+    },
+    {
+      "source": "体育",
+      "target": "意識",
+      "value": 47
+    },
+    {
+      "source": "体育",
+      "target": "受け",
+      "value": 36
+    },
+    {
+      "source": "体育",
+      "target": "生徒",
+      "value": 45
+    },
+    {
+      "source": "心臓",
+      "target": "運動",
+      "value": 38
+    },
+    {
+      "source": "心臓",
+      "target": "救急",
+      "value": 108
+    },
+    {
+      "source": "心肺",
+      "target": "心臓",
+      "value": 41
+    },
+    {
+      "source": "心臓",
+      "target": "種別",
+      "value": 156
+    },
+    {
+      "source": "心臓",
+      "target": "距離",
+      "value": 29
+    },
+    {
+      "source": "心臓",
+      "target": "際",
+      "value": 34
+    },
+    {
+      "source": "心臓",
+      "target": "病院",
+      "value": 104
+    },
+    {
+      "source": "心臓",
+      "target": "車",
+      "value": 91
+    },
+    {
+      "source": "処置",
+      "target": "心臓",
+      "value": 49
+    },
+    {
+      "source": "心臓",
+      "target": "意識",
+      "value": 67
+    },
+    {
+      "source": "受け",
+      "target": "心臓",
+      "value": 44
+    },
+    {
+      "source": "心臓",
+      "target": "授業",
+      "value": 59
+    },
+    {
+      "source": "心臓",
+      "target": "生徒",
+      "value": 56
+    },
+    {
+      "source": "後",
+      "target": "心臓",
+      "value": 119
+    },
+    {
+      "source": "呼吸",
+      "target": "突然",
+      "value": 89
+    },
+    {
+      "source": "呼吸",
+      "target": "心臓",
+      "value": 63
+    },
+    {
+      "source": "突然",
+      "target": "養護",
+      "value": 34
+    },
+    {
+      "source": "使用",
+      "target": "突然",
+      "value": 30
+    },
+    {
+      "source": "心臓",
+      "target": "行い",
+      "value": 36
+    },
+    {
+      "source": "到着",
+      "target": "突然",
+      "value": 48
+    },
+    {
+      "source": "到着",
+      "target": "心臓",
+      "value": 36
+    },
+    {
+      "source": "停止",
+      "target": "突然",
+      "value": 31
+    },
+    {
+      "source": "ショック",
+      "target": "突然",
+      "value": 27
+    },
+    {
+      "source": "突然",
+      "target": "要請",
+      "value": 83
+    },
+    {
+      "source": "心臓",
+      "target": "要請",
+      "value": 51
+    },
+    {
+      "source": "教諭",
+      "target": "突然",
+      "value": 42
+    },
+    {
+      "source": "心臓",
+      "target": "教諭",
+      "value": 30
+    },
+    {
+      "source": "担任",
+      "target": "突然",
+      "value": 46
+    },
+    {
+      "source": "心臓",
+      "target": "担任",
+      "value": 25
+    },
+    {
+      "source": "AED",
+      "target": "突然",
+      "value": 61
+    },
+    {
+      "source": "AED",
+      "target": "心臓",
+      "value": 42
+    },
+    {
+      "source": "回",
+      "target": "突然",
+      "value": 26
+    },
+    {
+      "source": "状態",
+      "target": "突然",
+      "value": 59
+    },
+    {
+      "source": "心臓",
+      "target": "状態",
+      "value": 41
+    },
+    {
+      "source": "心臓",
+      "target": "行っ",
+      "value": 49
+    },
+    {
+      "source": "突然",
+      "target": "隊",
+      "value": 36
+    },
+    {
+      "source": "人工",
+      "target": "突然",
+      "value": 33
+    },
+    {
+      "source": "マッサージ",
+      "target": "突然",
+      "value": 32
+    },
+    {
+      "source": "心臓",
+      "target": "隊",
+      "value": 30
+    },
+    {
+      "source": "人工",
+      "target": "心臓",
+      "value": 33
+    },
+    {
+      "source": "マッサージ",
+      "target": "心臓",
+      "value": 45
+    },
+    {
+      "source": "すぐ",
+      "target": "心臓",
+      "value": 31
+    },
+    {
+      "source": "心臓",
+      "target": "搬送",
+      "value": 112
+    },
+    {
+      "source": "準備",
+      "target": "突然",
+      "value": 44
+    },
+    {
+      "source": "児童",
+      "target": "心臓",
+      "value": 27
+    },
+    {
+      "source": "心臓",
+      "target": "準備",
+      "value": 30
+    },
+    {
+      "source": "教室",
+      "target": "突然",
+      "value": 39
+    },
+    {
+      "source": "心臓",
+      "target": "教室",
+      "value": 26
+    },
+    {
+      "source": "歩い",
+      "target": "突然",
+      "value": 30
+    },
+    {
+      "source": "教員",
+      "target": "突然",
+      "value": 31
+    },
+    {
+      "source": "休憩",
+      "target": "突然",
+      "value": 51
+    },
+    {
+      "source": "休憩",
+      "target": "心臓",
+      "value": 38
+    },
+    {
+      "source": "様子",
+      "target": "突然",
+      "value": 37
+    },
+    {
+      "source": "声",
+      "target": "突然",
+      "value": 25
+    },
+    {
+      "source": "昼食",
+      "target": "突然",
+      "value": 29
+    },
+    {
+      "source": "なり",
+      "target": "突然",
+      "value": 28
+    },
+    {
+      "source": "治療",
+      "target": "突然",
+      "value": 73
+    },
+    {
+      "source": "突然",
+      "target": "血管",
+      "value": 57
+    },
+    {
+      "source": "場",
+      "target": "突然",
+      "value": 37
+    },
+    {
+      "source": "特定",
+      "target": "突然",
+      "value": 27
+    },
+    {
+      "source": "突然",
+      "target": "館",
+      "value": 27
+    },
+    {
+      "source": "体育",
+      "target": "館",
+      "value": 36
+    },
+    {
+      "source": "突然",
+      "target": "途中",
+      "value": 30
+    },
+    {
+      "source": "持久",
+      "target": "死",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "競技",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "走",
+      "value": 26
+    },
+    {
+      "source": "目",
+      "target": "突然",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "突然",
+      "value": 26
+    },
+    {
+      "source": "突然",
+      "target": "長",
+      "value": 28
+    },
+    {
+      "source": "発見",
+      "target": "突然",
+      "value": 25
+    },
+    {
+      "source": "保健",
+      "target": "持久",
+      "value": 26
+    },
+    {
+      "source": "体育",
+      "target": "持久",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "長",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "種別",
+      "value": 26
+    },
+    {
+      "source": "持久",
+      "target": "距離",
+      "value": 26
+    },
+    {
+      "source": "後",
+      "target": "持久",
+      "value": 25
+    },
+    {
+      "source": "体育",
+      "target": "長",
+      "value": 28
+    },
+    {
+      "source": "体育",
+      "target": "呼吸",
+      "value": 37
+    },
+    {
+      "source": "体育",
+      "target": "状態",
+      "value": 31
+    },
+    {
+      "source": "室",
+      "target": "心臓",
+      "value": 37
+    },
+    {
+      "source": "体育",
+      "target": "数",
+      "value": 32
+    },
+    {
+      "source": "体育",
+      "target": "要請",
+      "value": 35
+    },
+    {
+      "source": "体育",
+      "target": "治療",
+      "value": 35
+    },
+    {
+      "source": "突然",
+      "target": "装着",
+      "value": 27
+    },
+    {
+      "source": "心臓",
+      "target": "治療",
+      "value": 45
+    },
+    {
+      "source": "数",
+      "target": "突然",
+      "value": 64
+    },
+    {
+      "source": "心臓",
+      "target": "数",
+      "value": 34
+    },
+    {
+      "source": "体育",
+      "target": "同日",
+      "value": 39
+    },
+    {
+      "source": "同日",
+      "target": "突然",
+      "value": 76
+    },
+    {
+      "source": "同日",
+      "target": "心臓",
+      "value": 50
+    },
+    {
+      "source": "圧迫",
+      "target": "突然",
+      "value": 26
+    },
+    {
+      "source": "突然",
+      "target": "胸骨",
+      "value": 25
+    },
+    {
+      "source": "保育",
+      "target": "突然",
+      "value": 27
+    },
+    {
+      "source": "AED",
+      "target": "体育",
+      "value": 33
+    }
+  ]
+}

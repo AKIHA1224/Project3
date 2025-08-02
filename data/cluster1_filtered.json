@@ -1,0 +1,1026 @@
+{
+  "nodes": [
+    {
+      "id": "搬送",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "治療",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "給食",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "窒息",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "蘇生",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "児童",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "指導",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "溺死",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "救急",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "心肺",
+      "value": 5,
+      "cluster": 1
+    },
+    {
+      "id": "競技",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "他",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "保健",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "本",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "体育",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "中",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "種別",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "学校",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "発見",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "授業",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "後",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "死",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "突然",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "倒れ",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "行い",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "訴え",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "運動",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "中枢",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "系",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "すぐ",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "終了",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "神経",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "際",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "室",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "病院",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "約",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "行っ",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "死亡",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "心臓",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "分",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "車",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "処置",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "意識",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "受け",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "生徒",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "呼吸",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "要請",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "教諭",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "担任",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "AED",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "状態",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "なっ",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "症",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "食べ",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "付近",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "休憩",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "教室",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "様子",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "なく",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "昼食",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "血管",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "場",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "特定",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "数",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "日",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "保育",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "以外",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "同日",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "出来事",
+      "value": 2,
+      "cluster": 1
+    },
+    {
+      "id": "起因",
+      "value": 2,
+      "cluster": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "児童",
+      "target": "競技",
+      "value": 71
+    },
+    {
+      "source": "他",
+      "target": "児童",
+      "value": 27
+    },
+    {
+      "source": "保健",
+      "target": "児童",
+      "value": 27
+    },
+    {
+      "source": "児童",
+      "target": "本",
+      "value": 60
+    },
+    {
+      "source": "体育",
+      "target": "児童",
+      "value": 21
+    },
+    {
+      "source": "中",
+      "target": "児童",
+      "value": 48
+    },
+    {
+      "source": "児童",
+      "target": "種別",
+      "value": 71
+    },
+    {
+      "source": "児童",
+      "target": "授業",
+      "value": 16
+    },
+    {
+      "source": "児童",
+      "target": "後",
+      "value": 48
+    },
+    {
+      "source": "児童",
+      "target": "溺死",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "死",
+      "value": 52
+    },
+    {
+      "source": "児童",
+      "target": "突然",
+      "value": 46
+    },
+    {
+      "source": "倒れ",
+      "target": "児童",
+      "value": 17
+    },
+    {
+      "source": "児童",
+      "target": "行い",
+      "value": 15
+    },
+    {
+      "source": "児童",
+      "target": "訴え",
+      "value": 11
+    },
+    {
+      "source": "児童",
+      "target": "指導",
+      "value": 18
+    },
+    {
+      "source": "児童",
+      "target": "運動",
+      "value": 15
+    },
+    {
+      "source": "中枢",
+      "target": "児童",
+      "value": 13
+    },
+    {
+      "source": "児童",
+      "target": "系",
+      "value": 45
+    },
+    {
+      "source": "すぐ",
+      "target": "児童",
+      "value": 17
+    },
+    {
+      "source": "児童",
+      "target": "終了",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "神経",
+      "value": 13
+    },
+    {
+      "source": "児童",
+      "target": "際",
+      "value": 19
+    },
+    {
+      "source": "児童",
+      "target": "室",
+      "value": 25
+    },
+    {
+      "source": "児童",
+      "target": "病院",
+      "value": 56
+    },
+    {
+      "source": "児童",
+      "target": "搬送",
+      "value": 55
+    },
+    {
+      "source": "児童",
+      "target": "約",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "行っ",
+      "value": 21
+    },
+    {
+      "source": "競技",
+      "target": "給食",
+      "value": 41
+    },
+    {
+      "source": "本",
+      "target": "給食",
+      "value": 20
+    },
+    {
+      "source": "児童",
+      "target": "給食",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "症",
+      "value": 10
+    },
+    {
+      "source": "児童",
+      "target": "車",
+      "value": 45
+    },
+    {
+      "source": "中",
+      "target": "給食",
+      "value": 24
+    },
+    {
+      "source": "指導",
+      "target": "給食",
+      "value": 29
+    },
+    {
+      "source": "種別",
+      "target": "給食",
+      "value": 41
+    },
+    {
+      "source": "給食",
+      "target": "食べ",
+      "value": 16
+    },
+    {
+      "source": "給食",
+      "target": "車",
+      "value": 26
+    },
+    {
+      "source": "死",
+      "target": "給食",
+      "value": 34
+    },
+    {
+      "source": "突然",
+      "target": "給食",
+      "value": 21
+    },
+    {
+      "source": "児童",
+      "target": "受け",
+      "value": 30
+    },
+    {
+      "source": "児童",
+      "target": "意識",
+      "value": 26
+    },
+    {
+      "source": "中枢",
+      "target": "給食",
+      "value": 10
+    },
+    {
+      "source": "系",
+      "target": "給食",
+      "value": 19
+    },
+    {
+      "source": "室",
+      "target": "給食",
+      "value": 15
+    },
+    {
+      "source": "神経",
+      "target": "給食",
+      "value": 10
+    },
+    {
+      "source": "受け",
+      "target": "給食",
+      "value": 12
+    },
+    {
+      "source": "意識",
+      "target": "給食",
+      "value": 11
+    },
+    {
+      "source": "後",
+      "target": "給食",
+      "value": 30
+    },
+    {
+      "source": "児童",
+      "target": "状態",
+      "value": 19
+    },
+    {
+      "source": "付近",
+      "target": "児童",
+      "value": 11
+    },
+    {
+      "source": "児童",
+      "target": "心臓",
+      "value": 27
+    },
+    {
+      "source": "休憩",
+      "target": "児童",
+      "value": 19
+    },
+    {
+      "source": "児童",
+      "target": "担任",
+      "value": 19
+    },
+    {
+      "source": "死",
+      "target": "窒息",
+      "value": 90
+    },
+    {
+      "source": "窒息",
+      "target": "競技",
+      "value": 91
+    },
+    {
+      "source": "なっ",
+      "target": "窒息",
+      "value": 11
+    },
+    {
+      "source": "死亡",
+      "target": "窒息",
+      "value": 88
+    },
+    {
+      "source": "中",
+      "target": "窒息",
+      "value": 59
+    },
+    {
+      "source": "種別",
+      "target": "窒息",
+      "value": 91
+    },
+    {
+      "source": "発見",
+      "target": "窒息",
+      "value": 12
+    },
+    {
+      "source": "保育",
+      "target": "窒息",
+      "value": 10
+    },
+    {
+      "source": "意識",
+      "target": "窒息",
+      "value": 11
+    },
+    {
+      "source": "以外",
+      "target": "窒息",
+      "value": 90
+    },
+    {
+      "source": "溺死",
+      "target": "窒息",
+      "value": 90
+    },
+    {
+      "source": "他",
+      "target": "窒息",
+      "value": 15
+    },
+    {
+      "source": "状態",
+      "target": "窒息",
+      "value": 17
+    },
+    {
+      "source": "呼吸",
+      "target": "給食",
+      "value": 11
+    },
+    {
+      "source": "呼吸",
+      "target": "窒息",
+      "value": 11
+    },
+    {
+      "source": "死亡",
+      "target": "給食",
+      "value": 38
+    },
+    {
+      "source": "窒息",
+      "target": "給食",
+      "value": 16
+    },
+    {
+      "source": "救急",
+      "target": "給食",
+      "value": 29
+    },
+    {
+      "source": "給食",
+      "target": "要請",
+      "value": 17
+    },
+    {
+      "source": "病院",
+      "target": "給食",
+      "value": 33
+    },
+    {
+      "source": "処置",
+      "target": "給食",
+      "value": 10
+    },
+    {
+      "source": "搬送",
+      "target": "給食",
+      "value": 31
+    },
+    {
+      "source": "給食",
+      "target": "行っ",
+      "value": 16
+    },
+    {
+      "source": "指導",
+      "target": "窒息",
+      "value": 14
+    },
+    {
+      "source": "救急",
+      "target": "窒息",
+      "value": 32
+    },
+    {
+      "source": "窒息",
+      "target": "要請",
+      "value": 16
+    },
+    {
+      "source": "窒息",
+      "target": "車",
+      "value": 29
+    },
+    {
+      "source": "病院",
+      "target": "窒息",
+      "value": 37
+    },
+    {
+      "source": "処置",
+      "target": "窒息",
+      "value": 13
+    },
+    {
+      "source": "搬送",
+      "target": "窒息",
+      "value": 39
+    },
+    {
+      "source": "後",
+      "target": "窒息",
+      "value": 36
+    },
+    {
+      "source": "日",
+      "target": "窒息",
+      "value": 11
+    },
+    {
+      "source": "窒息",
+      "target": "行っ",
+      "value": 11
+    },
+    {
+      "source": "児童",
+      "target": "呼吸",
+      "value": 19
+    },
+    {
+      "source": "児童",
+      "target": "死亡",
+      "value": 65
+    },
+    {
+      "source": "児童",
+      "target": "教諭",
+      "value": 13
+    },
+    {
+      "source": "児童",
+      "target": "心肺",
+      "value": 18
+    },
+    {
+      "source": "児童",
+      "target": "蘇生",
+      "value": 18
+    },
+    {
+      "source": "なっ",
+      "target": "児童",
+      "value": 15
+    },
+    {
+      "source": "なく",
+      "target": "児童",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "救急",
+      "value": 45
+    },
+    {
+      "source": "心臓",
+      "target": "給食",
+      "value": 10
+    },
+    {
+      "source": "児童",
+      "target": "治療",
+      "value": 29
+    },
+    {
+      "source": "児童",
+      "target": "教室",
+      "value": 16
+    },
+    {
+      "source": "児童",
+      "target": "昼食",
+      "value": 11
+    },
+    {
+      "source": "児童",
+      "target": "分",
+      "value": 10
+    },
+    {
+      "source": "担任",
+      "target": "給食",
+      "value": 11
+    },
+    {
+      "source": "教室",
+      "target": "給食",
+      "value": 15
+    },
+    {
+      "source": "学校",
+      "target": "窒息",
+      "value": 48
+    },
+    {
+      "source": "受け",
+      "target": "窒息",
+      "value": 16
+    },
+    {
+      "source": "休憩",
+      "target": "窒息",
+      "value": 29
+    },
+    {
+      "source": "すぐ",
+      "target": "窒息",
+      "value": 15
+    },
+    {
+      "source": "治療",
+      "target": "窒息",
+      "value": 17
+    },
+    {
+      "source": "同日",
+      "target": "窒息",
+      "value": 12
+    },
+    {
+      "source": "児童",
+      "target": "処置",
+      "value": 10
+    },
+    {
+      "source": "児童",
+      "target": "同日",
+      "value": 23
+    },
+    {
+      "source": "窒息",
+      "target": "蘇生",
+      "value": 14
+    },
+    {
+      "source": "心肺",
+      "target": "窒息",
+      "value": 13
+    },
+    {
+      "source": "児童",
+      "target": "数",
+      "value": 23
+    },
+    {
+      "source": "児童",
+      "target": "要請",
+      "value": 23
+    },
+    {
+      "source": "出来事",
+      "target": "窒息",
+      "value": 44
+    },
+    {
+      "source": "窒息",
+      "target": "起因",
+      "value": 44
+    },
+    {
+      "source": "生徒",
+      "target": "窒息",
+      "value": 13
+    },
+    {
+      "source": "窒息",
+      "target": "食べ",
+      "value": 15
+    },
+    {
+      "source": "本",
+      "target": "窒息",
+      "value": 22
+    },
+    {
+      "source": "児童",
+      "target": "血管",
+      "value": 11
+    },
+    {
+      "source": "児童",
+      "target": "場",
+      "value": 14
+    },
+    {
+      "source": "以外",
+      "target": "給食",
+      "value": 15
+    },
+    {
+      "source": "溺死",
+      "target": "給食",
+      "value": 15
+    },
+    {
+      "source": "同日",
+      "target": "給食",
+      "value": 10
+    },
+    {
+      "source": "教室",
+      "target": "窒息",
+      "value": 10
+    },
+    {
+      "source": "児童",
+      "target": "様子",
+      "value": 12
+    },
+    {
+      "source": "治療",
+      "target": "給食",
+      "value": 13
+    },
+    {
+      "source": "窒息",
+      "target": "終了",
+      "value": 12
+    },
+    {
+      "source": "特定",
+      "target": "窒息",
+      "value": 13
+    },
+    {
+      "source": "授業",
+      "target": "窒息",
+      "value": 13
+    },
+    {
+      "source": "様子",
+      "target": "給食",
+      "value": 12
+    },
+    {
+      "source": "AED",
+      "target": "児童",
+      "value": 13
+    },
+    {
+      "source": "数",
+      "target": "給食",
+      "value": 12
+    },
+    {
+      "source": "数",
+      "target": "窒息",
+      "value": 14
+    }
+  ]
+}
