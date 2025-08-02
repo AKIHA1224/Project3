@@ -1,0 +1,126 @@
+/* モバイル対応 */
+@media (max-width: 768px) {
+  #scroll-content {
+    padding-top: 0px;
+  }
+  #my-svg-chart {
+    position: static;
+  }
+#grid {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  display: block;
+  margin: 0 auto;
+  background-color: #fdf6ee;
+}
+  .step:first-child {
+    margin-top: 10vh;
+  }
+  body {
+    font-size: 18px;
+  }
+  .content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+
+html, body {
+  padding-top: 50px;
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #fdf6ee;
+}
+
+/* 最終セクション用 */
+#article {
+  padding: 2rem;
+  font-size: 1.2rem;
+  max-width: 700px; /* 読みやすい横幅に制限 */
+  margin: 0 auto;   /* 中央寄せ */
+  text-align: center;
+}
+
+#article h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#article p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+/* SVGそのもの */
+#grid {
+  width: 80vw;                  /* 表示幅を画面の80%に */
+  height: auto;                 /* アスペクト比を保つ */
+  aspect-ratio: 2 / 1;          /* 横長比率を指定 */
+  display: block;
+  margin: 0 auto;               /* 中央寄せ */
+  background-color: #fdf6ee;
+}
+
+/* SVGの背景 */
+rect {
+  transition: fill 1s ease-in-out;
+}
+
+/* 固定されるSVG表示エリア */
+#my-svg-chart {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  max-width: none; /* 🔧 親要素制限回避のため追加 */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.step:first-child {
+  margin-top: calc(50vh - 5vh);
+}
+
+/* テキストステップコンテナ */
+#text {
+  position: relative;
+  max-width: 20rem;
+  margin: 0 auto;
+  z-index: 2;
+  min-height: 10vh;
+  padding-bottom: 2rem;
+}
+
+/* 各スクロールステップ */
+.step {
+  max-width: 100%;
+  margin: 0 auto 40rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+  line-height: 1.4;
+  max-height: none;
+}
+
+/* SVGラベルとブロック用のレスポンシブ設定 */
+#category-grid {
+  width: 100%;
+  height: 1000px;
+  display: block;
+  margin: 2rem auto;
+}
+
+@media (max-width: 640px) {
+  #category-grid {
+    height: 1200px;
+  }
+}
+

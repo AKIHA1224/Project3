@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visualizing School Accidents</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ライブラリ -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+</head>
+
+<body>
+  <div id="scroll-content">
+    <div id="my-svg-chart">
+      <svg id="grid"></svg> <!-- ⬆️ SVG要素を追加 -->
+    </div>
+
+    <!-- テキストが発火トリガー -->
+    <div id="text">
+      <div class="step" data-step="overview">At school—a place where children are supposed to learn safely—more than 8,000 children have been injured or lost their lives in accidents.</div>
+      <div class="step" data-step="classroom">To analyze the accidents, they were categorized into: "Commuting", "Class & Break Time", "Club Activities", "School Events", and "Others".</div>
+      <div class="step" data-step="classroom-focus">The most frequent category, "Class & Break Time", accounts for 48% of all accidents.</div>
+    </div>
+
+    <!-- 中央に常日表示されるテキストコンテナ -->
+    <div id="step-container">
+      <div id="step-text"></div>
+    </div>
+  </div>
+
+  <!-- 本文セクション -->
+  <section id="article" class="hidden">
+    <h1>Recurring School Accidents</h1>
+    <h2>Uncovering the Hidden Dangers in Places of Learning</h2>
+    <p><strong>By Akiha Komatsu</strong> | August 2025</p>
+    <p><em><small>This article is based on data from the Japan Sport Council.</small></em></p>
+
+    <p>
+      There are children who have died or been left with lasting disabilities due to accidents at school.
+    </p>
+    <p><strong>1,151 children died, and 7,682 children suffered some form of disability</strong><br>
+      According to the accident data published by the Japan Sport Council since 2005, many children have experienced accidents at school, which is supposed to be a safe place.
+    </p>
+    <p>
+      The number of children who die or are disabled in school accidents has been on a declining trend, but nearly 400 children still suffer such outcomes each year.
+    </p>
+
+    <iframe
+      width="100%"
+      height="514"
+      frameborder="0"
+      src="https://observablehq.com/embed/780b8604bd5dbb31@19?cells=viewof+chartEnglish"
+      loading="lazy">
+    </iframe>
+    <br><br>
+
+    <h3>Number of Accidents by Category</h3>
+    <p>
+      To better understand the data, accidents were categorized into five groups: <strong>Commuting, Class & Break Time, Club Activities, School Events, and Others</strong>.<br>
+      <small>*Accidents during childcare or swimming instruction are included under "Class & Break Time" even during summer break.</small>
+    </p>
+
+    <div id="category-grid-container">
+      <svg id="category-grid" width="100%"></svg>
+    </div>
+
+    <h3>Accidents During Class & Break Time</h3>
+    <p>
+      Let's look closer at "Class & Break Time", which accounts for 48% of all school accidents.
+    </p>
+    <p>
+      To understand patterns in fatal accidents, we used clustering to group cases based on similar causes, locations, and circumstances. As a result, several similar clusters emerged.
+    </p>
+    <p>
+      For example, one cluster includes keywords like <strong>"School lunch", "Choking", "Children"</strong>.
+    </p>
+    <p>
+      In multiple cases, children choked to death on food items like bread, edamame, and quail eggs.
+    </p>
+    <p><small>*Some keywords remain in Japanese because the original analysis was conducted in Japanese.</small></p>
+
+    <iframe width="100%" height="719" frameborder="0"
+      src="https://observablehq.com/embed/1e2d16d56655074d@142?cells=viewof+toggleLanguage%2Cchart">
+    </iframe>
+
+    <p>
+      Another cluster shows keywords like <strong>"PE class", "Heart", "Endurance (Run)"</strong>.
+    </p>
+    <p>
+      According to the Japan Sport Council, at least 35 students died from sudden cardiac arrest during PE classes between 2005 and 2023.
+    </p>
+    <iframe width="100%" height="719" frameborder="0"
+      src="https://observablehq.com/embed/4baa4d98f38f0d8b@158?cells=viewof+toggleLanguage%2Cchart">
+    </iframe>
+
+    <p>
+      Keywords indicating strenuous activity like "Running" and warning signs like "Suddenly" and "Collapse" repeatedly appear not only in PE but also in "Club Activities" and "School Events" clusters.
+    </p>
+    <br><br>
+    <h3>What We Learn from Recurring Accidents</h3>
+    <p>
+      The analysis reveals that some accidents tend to recur in similar situations.
+    </p>
+    <p>
+      Choking during lunch and cardiac arrest during PE class may seem random, but they follow recognizable patterns.
+    </p>
+    <p>
+      These insights suggest the need to rethink daily risks and create systems to prevent future accidents.
+    </p>
+
+    <br><br>
+    <div style="border: 1px solid #444; padding: 1em; background-color: #fdf6ee;">
+     <h3>About the Data</h3>
+    <p>
+      The data on school accidents was obtained from the <strong>Japan Sport Council</strong>'s
+      <a href="https://www.jpnsport.go.jp/anzen/anzen_school/anzen_school/tabid/822/Default.aspx" target="_blank" rel="noopener">
+        Injury and Accident Mutual Aid Benefit System
+      </a>.
+    </p>
+    <p>
+      We analyzed <strong>fatal case reports</strong> submitted between fiscal years 2005 and 2023 using morphological analysis, clustering, and network analysis.
+    </p>
+    <p>
+      The analysis was conducted using <strong>Python (pandas, fugashi, scikit-learn)</strong>, and visualized with <strong>D3.js</strong> and <strong>Observable</strong>.
+    </p>
+    <p>
+      <a href="https://github.com/xxx/your-project-repo" target="_blank" rel="noopener">
+        A portion of the code and data is available on GitHub
+      </a>.
+    </p>
+
+  <!-- スクリプト -->
+  <script>
+    const svg = d3.select("#grid");
+    let fullData = [];
+    let initialized = false;
+
+    const categoryColors = {
+      "授業と休憩時間": "#e57373",  // 柔らかいローズレッド
+      "部活動": "#f9a825",       // 暖かみのあるマスタードイエロー
+      "登下校": "#81c784",       // パステルグリーン
+      "学校行事": "#f06292",     // ピンク寄りのソフトレッド
+      "その他": "#9575cd"        // 落ち着いたラベンダー
+    };
+
+    const grayDeath = "#aaa";
+    const grayInjury = "#eee";
+
+    function drawGrid({ mode = "all", category = null, duration = 500 } = {}) {
+      const total = fullData.length;
+      const columns = window.innerWidth > 800 ? 100 : 40;
+      const boxSize = window.innerWidth / columns;
+      const rows = Math.ceil(total / columns);
+
+      svg
+        .attr("viewBox", `0 0 ${window.innerWidth} ${rows * boxSize}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+
+      const filtered = category ? fullData.filter(d => d.category === category) : [];
+
+      // 初回描画
+      if (!initialized) {
+        svg.selectAll("rect")
+          .data(fullData, d => d.id)
+          .enter()
+          .append("rect")
+          .attr("width", boxSize - 1)
+          .attr("height", boxSize - 1)
+          .attr("x", (d, i) => (i % columns) * boxSize)
+          .attr("y", (d, i) => Math.floor(i / columns) * boxSize)
+          .attr("fill", d => d.outcome === "death" ? grayDeath : grayInjury);
+
+        initialized = true;
+      }
+
+      // アニメーション更新
+      svg.selectAll("rect")
+        .data(fullData, d => d.id)
+        .transition()
+        .duration(duration)
+        .attr("width", boxSize - 1)
+        .attr("height", boxSize - 1)
+        .attr("x", (d, i) => {
+          const isFocus = mode === "focus" && d.category === category;
+          const index = isFocus ? filtered.findIndex(f => f.id === d.id) : i;
+
+          if (isFocus) {
+            const totalCols = Math.min(columns, Math.ceil(filtered.length ** 0.5));
+            const xOffset = ((columns - totalCols) / 2) * boxSize;
+            return (index % totalCols) * boxSize + xOffset;
+          } else {
+            return (index % columns) * boxSize;
+          }
+        })
+        .attr("y", (d, i) => {
+          const isFocus = mode === "focus" && d.category === category;
+          const index = isFocus ? filtered.findIndex(f => f.id === d.id) : i;
+
+          if (isFocus) {
+            const totalCols = Math.min(columns, Math.ceil(filtered.length ** 0.5));
+            const totalRows = Math.ceil(filtered.length / totalCols);
+            const yOffset = ((rows - totalRows) / 2) * boxSize;
+            return Math.floor(index / totalCols) * boxSize + yOffset;
+          } else {
+            return Math.floor(index / columns) * boxSize;
+          }
+        })
+        .attr("fill", d => {
+          if (mode === "focus" && d.category !== category) return "transparent";
+          if (!category || d.category !== category) {
+            return d.outcome === "death" ? grayDeath : grayInjury;
+          }
+          const baseColor = categoryColors[category];
+          return d.outcome === "death"
+            ? d3.color(baseColor).darker(1.2)
+            : baseColor;
+        });
+    }
+
+    d3.json("school_accident_grid_data.json").then(data => {
+      fullData = d3.shuffle(data).map((d, i) => ({ ...d, id: i }));
+      drawGrid();
+      const scrolly = d3.select("#scroll-content");
+      const figure = scrolly.select("#my-svg-chart");
+      const step = scrolly.selectAll(".step");
+      const scroller = scrollama();
+      const stepText = document.getElementById("step-text");
+
+      function handleResize() {
+        var stepH = window.innerHeight * 0.5; // or 0.6, 0.7
+        step.style("height", stepH + "px");
+
+
+        var figureHeight = Math.min(window.innerHeight * 0.8, 640);
+        var figureMarginTop = (window.innerWidth < 600) ? 20 : (window.innerHeight - figureHeight) / 2;
+
+        figure
+          .style("height", figureHeight + "px")
+          .style("top", figureMarginTop + "px");
+
+        scroller.resize();
+      }
+
+      function handleStepEnter(response) {
+        step.classed("is-active", function (d, i) {
+          return i === response.index;
+        });
+
+        stepText.classList.remove("is-visible");
+        setTimeout(() => {
+          stepText.textContent = messages[response.index] || "";
+          if (response.index !== 3) stepText.classList.add("is-visible");
+        }, 100);
+
+        if (response.index === 3) {
+          document.getElementById("scroll-content").classList.add("hidden");
+          document.getElementById("article").classList.remove("hidden");
+        } else {
+          document.getElementById("scroll-content").classList.remove("hidden");
+          document.getElementById("article").classList.add("hidden");
+        }
+
+        if (response.index === 0) {
+          drawGrid({ mode: "all", category: null, duration: 50 });
+        } else if (response.index === 1) {
+          drawGrid({ mode: "all", category: "授業と休憩時間", duration: 50 });
+        } else if (response.index === 2) {
+          drawGrid({ mode: "focus", category: "授業と休憩時間", duration: 1000 });
+        }
+      }
+
+      function init() {
+        // ★ この行を最初に追加 ★
+        const stepCount = document.querySelectorAll('.step').length;
+        document.getElementById('scroll-content').style.minHeight = `${window.innerHeight * stepCount}px`;
+
+        handleResize();
+
+        scroller
+          .setup({
+            step: "#scroll-content .step",
+            offset: 0.5,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter);
+
+        window.addEventListener("resize", () => {
+          initialized = false; // 再描画のためにフラグをリセット
+          drawGrid();
+          handleResize();
+        });
+      }
+      init();
+      document.getElementById('scroll-content').style.minHeight = window.innerHeight * 3 + 'px';
+    });
+  </script>
+  <!-- カテゴリ別グリッドを描画するスクリプト -->
+  <script>
+    // ✅ データと表示ラベルを分離
+    const categoryData = [
+      { category: "授業と休憩時間", label: "Class & Break Time (授業と休憩時間)", value: 2272 },
+      { category: "部活動", label: "Club Activities (部活動)", value: 976 },
+      { category: "登下校", label: "Commuting (登下校)", value: 329 },
+      { category: "学校行事", label: "School Events (学校行事)", value: 296 },
+      { category: "その他", label: "Others (その他)", value: 201 }
+    ];
+
+    const squareSize = 9;       // Block size
+    const rowCount = 20;        // Number of rows per block
+    const gapY = 250;           // Vertical gap between categories
+    const marginLeft = 0;       // Left margin for label alignment
+
+    const maxColumns = Math.ceil(Math.max(...categoryData.map(d => d.value)) / rowCount);
+    const svgWidth = marginLeft + maxColumns * squareSize;
+    const totalHeight = categoryData.length * (rowCount * squareSize + 60);
+    const svgHeight = totalHeight;
+
+    const catSvg = d3.select("#category-grid")
+      .attr("width", "100%")
+      .attr("height", null)
+      .style("height", "auto")
+      .attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`)
+      .attr("preserveAspectRatio", "xMinYMin meet");
+
+    categoryData.forEach((d, idx) => {
+      const columns = Math.ceil(d.value / rowCount);
+      const squares = Array.from({ length: d.value });
+
+      const group = catSvg.append("g")
+        .attr("transform", `translate(${marginLeft}, ${idx * gapY + 40})`);
+
+      group.selectAll("rect")
+        .data(squares)
+        .enter()
+        .append("rect")
+        .attr("x", (d, i) => Math.floor(i / rowCount) * squareSize)
+        .attr("y", (d, i) => (i % rowCount) * squareSize)
+        .attr("width", squareSize - 1)
+        .attr("height", squareSize - 1)
+        .attr("fill", categoryColors[d.category] || "#ccc");
+
+      group.append("text")
+        .attr("x", 0)
+        .attr("y", -10)
+        .attr("text-anchor", "start")
+        .attr("font-weight", "bold")
+        .style("font-size", "26px")
+        .text(`${d.label} (${d.value})`);
+    });
+  </script>
+
+</body>
+</html>
